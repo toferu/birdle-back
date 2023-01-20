@@ -4,4 +4,4 @@ from .models import Bird
 class BirdSerializer(serializers.ModelSerializer):
     class Meta:
         model = Bird
-        field = ('id', 'name', 'image')
+        fields = ('id', 'name', 'image')
